@@ -1,6 +1,6 @@
 sudo apt update && sudo apt install nodejs npm
 
-sudo npm install i -g pm2
+sudo npm i -g pm2
 
 pm2 stop simple_app
 
