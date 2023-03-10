@@ -4,7 +4,7 @@ sudo npm install -g pm2
 
 pm2 stop simple_app
 
-cd DevOpsSec-CA/
+
 
 npm install
 
