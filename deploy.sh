@@ -1,7 +1,5 @@
 sudo apt update && sudo apt install nodejs npm
 
-npm update -g npm
-
 sudo npm install -g pm2 --verbose
 
 pm2 stop example_app
