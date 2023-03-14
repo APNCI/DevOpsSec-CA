@@ -1,13 +1,13 @@
-apt update && apt install nodejs npm
+sudo apt update && sudo apt install nodejs npm
 
-apt-get install npm
+sudo apt-get install npm
 
-npm install -g pm2 --verbose
+sudo npm install -g pm2 --verbose
 
 pm2 stop example_app
 
 cd DevOpsSec-CA/
 
-npm install
+sudo npm install
 
 pm2 start ./bin/www --name example_app
